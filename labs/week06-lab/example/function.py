@@ -123,7 +123,7 @@ print()
 print("\n=== PART 4: DEFAULT PARAMETERS ===")
 
 # Example 1: Function with default parameter
-def greet_with_title(name, title="Mr./Ms."):
+def greet_with_title(name, title="Mr./Ms."): #default "mr/ms"
     """Greets person with optional title"""
     print(f"Hello, {title} {name}!")
 
@@ -174,7 +174,7 @@ def demonstrate_scope():
     print(f"Inside function - Local: {local_message}")
     
     # Modifying global variable (need global keyword)
-    global counter
+    global counter #เขียนทับข้อมูลนอกฟังก์ชัน
     counter += 1
     print(f"Counter inside function: {counter}")
 
