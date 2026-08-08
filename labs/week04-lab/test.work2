@@ -1,0 +1,21 @@
+Data_list=[]
+print("Enter price 6 item")
+monney = int(input("monney"))
+for i in range(6):
+       itembuy = int(input(f"Enter your price item{i+1}:"))
+       Data_list.append(itembuy)
+       items_bought_list = []
+       total_spent = 0   
+print("total budget:", monney)
+for index, itembuy in enumerate(Data_list, start=1):
+    if itembuy <= monney  :
+        monney = monney - itembuy 
+        state = "buy"
+        items_bought_list.append(itembuy)
+        total_spent = total_spent + itembuy
+    elif monney < itembuy :
+        state = "connot buy"
+    print(f"item {index}-->{state} \n Cerrent total = {monney}")
+print(f"Bought item :{items_bought_list}")
+print(f"total spen :{total_spent}")
+print(f"Remaining :{monney}")   

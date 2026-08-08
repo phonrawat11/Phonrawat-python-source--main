@@ -1,0 +1,10 @@
+Data_list=[]
+for i in range(5):
+       score = int(input(f"Enter your score{i+1}:"))
+       Data_list.append(score)
+for index, score in enumerate(Data_list, start=1):
+         if score >= 50:
+            state = "ผ่าน"
+         else :
+            state = "ไม่ผ่าน"
+         print(f"student {index}:{score} --> {state}")    
