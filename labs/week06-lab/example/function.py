@@ -59,8 +59,8 @@ introduce_person("Eve", 30, "Los Angeles")
 # Example 3: Mathematical function
 def calculate_rectangle_area(length, width):
     """Calculates and displays rectangle area"""
-    area = length * width
-    print(f"Rectangle with length {length} and width {width}")
+    area = length * widthRectangle with length {leng
+                                                th} and width {width}")
     print(f"Area = {length} × {width} = {area}")
     print()
 

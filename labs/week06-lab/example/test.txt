@@ -1,0 +1,51 @@
+#part2
+#example1
+
+Calling greet_person with different names
+Hello,Alice! Nice yo meet you 
+Hello,Bob! Nice yo meet you 
+Hello,Charlie! Nice yo meet you 
+
+example2 
+Calling introduce_person:
+Hi! My name is Diana
+I am age 25 years old
+I live in city New York
+
+Hi! My name is Eve
+I am age 30 years old
+I live in city Los Angeles
+
+example3
+Rectangle with length 10  and width 7
+Area = 10 *7 = 70
+Rectangle with length 5 and width 3
+Area = 5 * 3 = 15
+
+#part3
+example1
+5 + 3 = 8
+10 + 7 = 17
+Sum of both results: 25
+
+part4
+example1
+Hello Mr/Ms ,Smith
+Hello DR ,johnson
+Hello Prof ,Brown
+
+example2
+Multiple default parameters
+Profile:,Alice Age:18 , Country:Unknown
+Profile:,Bob Age:25 , Country:Unknown
+Profile:,Charlie Age:30 , Country:USA
+
+Part5
+example1
+Scope demonstration
+Before function call - Counter: 0
+After function call - Counter: 1
+Outside function - Global: global variable
+Inside function - Global: global variable
+Inside function - Local:  Local variable
+Counter inside function: 1
